@@ -54,6 +54,9 @@ nmap <leader>w :w!<cr>
 " (useful for handling the permission-denied error)
 command W w !sudo tee % > /dev/null
 
+" Ensure backspace works properly on all systems
+set backspace=indent,eol,start
+set t_kb=
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
